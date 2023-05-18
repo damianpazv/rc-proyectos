@@ -1,0 +1,25 @@
+body{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    min-height: 100dvh;
+     color: rgb(250, 245, 245); 
+    
+
+    background: linear-gradient(45deg,red,blue,green,black);
+			background-size: 400% 400%;
+			position: relative;
+			animation: cambiar 10s ease-in-out infinite;
+
+    
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
